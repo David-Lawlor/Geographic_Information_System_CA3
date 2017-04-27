@@ -3,6 +3,7 @@
 
 class TreeNode
 {
+	friend class BST;
 public:
 	TreeNode(City cityIn);
 	~TreeNode();
